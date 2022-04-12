@@ -120,7 +120,7 @@ fp-storage = { version = "2.0.0", default-features = false, git = "https://githu
 # WASM-specific dependencies
 wasm-bindgen = { version = "0.2.73", optional = true }
 wasm-bindgen-futures = { version = "0.4.18", optional = true }
-libp2p-wasm-ext = { version = "0.30", features = ["websocket"], optional = true }
+libp2p-wasm-ext = { version = "0.32", features = ["websocket"], optional = true }
 
 [dev-dependencies]
 sc-service-test = { version = "2.0.0", git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.17" }
